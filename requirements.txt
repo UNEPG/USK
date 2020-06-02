@@ -1,0 +1,5 @@
+# bme680
+# smbus
+# Adafruit-BNO055
+smbus~=1.1.post2
+setuptools~=40.8.0
