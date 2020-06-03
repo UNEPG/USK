@@ -33,7 +33,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='usk',
-    version='0.1.9',
+    version='0.1.12',
     description="UniSat Software Kit",
     long_description=long_description,
     long_description_content_type='text/markdown',
