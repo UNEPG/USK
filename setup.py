@@ -37,7 +37,7 @@ setup(
     name='usk',
     version='0.1.12',
     description="UniSat Software Kit",
-    long_description=long_description,
+    long_description=readme,
     long_description_content_type='text/markdown',
     author='Yaakov Azat',
     author_email='a@azat.ai',
