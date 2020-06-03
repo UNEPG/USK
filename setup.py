@@ -10,22 +10,24 @@
 # 2020 June, Done with ❤ | a@azat.ai
 import os
 import sys
-from setuptools import setup, find_packages
+from setuptools import setup, find_packages,Extension
 
 with open('README.rst') as f:
     readme = f.read()
 
 with open('LICENSE') as f:
     a_license = f.read()
-
 here = os.path.abspath(os.path.dirname(__file__))
-
-with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
+with open(os.path.join(here, 'README.md')) as f:
     long_description = f.read()
 
 # 'setup.py publish' shortcut.
 if sys.argv[-1] == 'publish':
-    os.system('python setup.py sdist')
+    os.system('rm -rf dist')
+    os.system('rm -rf *.egg-info')
+    os.system('python3 setup.py sdist')
+    os.system('python3 setup.py bdist_wheel')
+    os.system('twine check dist/*')
     os.system('twine upload dist/*')
     os.system('rm -rf dist')
     os.system('rm -rf *.egg-info')
