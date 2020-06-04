@@ -35,7 +35,7 @@ if sys.argv[-1] == 'publish':
 
 setup(
     name='usk',
-    version='0.1.12',
+    version='0.1.13',
     description="UniSat Software Kit",
     long_description='UniSat Nano-Satellites Educational Program',
     # long_description_content_type='text/markdown',
@@ -50,7 +50,8 @@ setup(
         'bme680',
         'smbus',
         'adafruit-circuitpython-bno055',
-        'SI1145'
+        'SI1145',
+        'gpiozero'
     ],
     packages=find_packages(exclude=('tests', 'docs')),
     classifiers=[

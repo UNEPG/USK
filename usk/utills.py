@@ -4,15 +4,6 @@ import re
 import smbus
 
 
-# Version 1
-# p = subprocess.Popen(['i2cdetect', '-y', '1'], stdout=subprocess.PIPE, )
-#
-# for i in range(0, 9):
-#     line = str(p.stdout.readline())
-#
-#     for match in re.finditer("[0-9][0-9]:.*[0-9][0-9]", line):
-#         print(match.group())
-
 def i2c_scan():
     # !/usr/bin/env python
     i2c_devices = []
@@ -25,3 +16,14 @@ def i2c_scan():
             pass
     return i2c_devices
 
+
+def get_pi_temp():
+    temp = os.popen("vcgencmd measure_temp | egrep -o '[0-9]*\.[0-9]*'").readline()
+    print(temp.replace("temp=", ''))
+
+
+def pi_temp():
+    with open('/sys/class/thermal/thermal_zone0/temp') as f:
+        temp = f.read()
+    print(temp)
+    return temp

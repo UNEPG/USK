@@ -13,3 +13,12 @@ print(sensor.linear_acceleration)
 print(sensor.IR)
 print(sensor.magnetic)
 sensor.print_attrs()
+
+from usk.utills import get_pi_temp, pi_temp
+
+temp = get_pi_temp()
+print(temp)
+
+
+t2 = pi_temp()
+print(t2)
