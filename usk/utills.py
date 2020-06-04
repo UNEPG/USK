@@ -2,6 +2,7 @@ import os
 import subprocess
 import re
 import smbus
+from gpiozero import CPUTemperature
 
 
 def i2c_scan():
@@ -27,3 +28,11 @@ def pi_temp():
         temp = f.read()
     print(temp)
     return temp
+
+
+def cpu_temp():
+    cpu = CPUTemperature()
+    return cpu.temperature
+
+
+cpu_temp()

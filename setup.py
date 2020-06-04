@@ -10,7 +10,7 @@
 # 2020 June, Done with ❤ | a@azat.ai
 import os
 import sys
-from setuptools import setup, find_packages,Extension
+from setuptools import setup, find_packages, Extension
 
 with open('README.rst') as f:
     readme = f.read()
@@ -32,6 +32,9 @@ if sys.argv[-1] == 'publish':
     os.system('rm -rf dist')
     os.system('rm -rf *.egg-info')
     sys.exit()
+
+if sys.argv[-1] == 'clean':
+    os.system('find . -name "*.pyc" -exec rm -f {} \;')
 
 setup(
     name='usk',
@@ -55,11 +58,11 @@ setup(
     ],
     packages=find_packages(exclude=('tests', 'docs')),
     classifiers=[
-            # Trove classifiers
-            # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
-            'License :: OSI Approved :: MIT License',
-            'Programming Language :: Python',
-            'Programming Language :: Python :: 3.6',
-            'Programming Language :: Python :: Implementation :: CPython'
-        ],
+        # Trove classifiers
+        # Full list: https://pypi.python.org/pypi?%3Aaction=list_classifiers
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: Implementation :: CPython'
+    ],
 )
