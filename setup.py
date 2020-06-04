@@ -34,6 +34,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 if sys.argv[-1] == 'clean':
+    os.system('rm -rf build')
     os.system('find . -name "*.pyc" -exec rm -f {} \;')
 
 setup(
