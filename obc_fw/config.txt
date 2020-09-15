@@ -1,0 +1,11 @@
+# uncomment if hdmi display is not detected and composite is being output
+hdmi_force_hotplug=1
+
+dtparam=i2c_arm=on
+dtparam=audio=on
+enable_uart=1
+
+device_tree=bcm2710-rpi-cm3.dtb
+dtoverlay=pi3-disable-wifi
+dtoverlay=pi3-disable-bt
+dtoverlay=dt-blob
