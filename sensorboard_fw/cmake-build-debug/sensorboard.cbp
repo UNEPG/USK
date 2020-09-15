@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sensorboard"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\Platform\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensorboard-burn">
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensorboard-burn"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensorboard-upload">
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensorboard-upload"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensorboard-size">
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensorboard-size"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensorboard">
+				<Option output="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/sensorboard.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/utility"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensorboard"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensorboard/fast">
+				<Option output="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/sensorboard.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/utility"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 sensorboard/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_SoftwareSerial">
+				<Option output="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/libuno_SoftwareSerial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/utility"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_SoftwareSerial"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_SoftwareSerial/fast">
+				<Option output="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/libuno_SoftwareSerial.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/utility"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_SoftwareSerial/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="upload">
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 upload"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE">
+				<Option output="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/utility"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uno_CORE/fast">
+				<Option output="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/libuno_CORE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/utility"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/include-fixed"/>
+					<Add directory="/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/../lib/gcc/avr/7.3.0/../../../../avr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 uno_CORE/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Arduino.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/CDC.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Client.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial0.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial1.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial2.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial3.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/HardwareSerial_private.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/IPAddress.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/PluggableUSB.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Print.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Printable.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Server.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Stream.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Tone.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBAPI.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBCore.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/USBDesc.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/Udp.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WCharacter.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WInterrupts.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WMath.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/WString.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/abi.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/binary.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/hooks.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/main.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.cpp">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/new.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_analog.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_digital.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_private.h">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_pulse.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino/wiring_shift.c">
+			<Option target="uno_CORE"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp">
+			<Option target="uno_SoftwareSerial"/>
+		</Unit>
+		<Unit filename="/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.h">
+			<Option target="uno_SoftwareSerial"/>
+		</Unit>
+		<Unit filename="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/sensorboard_sensorboard.ino.cpp">
+			<Option target="sensorboard"/>
+		</Unit>
+		<Unit filename="/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/sensorboard_sensorboard.ino.cpp.rule">
+			<Option target="sensorboard"/>
+		</Unit>
+		<Unit filename="/Users/azat/Projects/unisat/sensorboard/sensorboard.ino">
+			<Option target="sensorboard"/>
+		</Unit>
+		<Unit filename="/Users/azat/Projects/unisat/sensorboard/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/azat/Projects/unisat/sensorboard/cmake/ArduinoToolchain.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/azat/Projects/unisat/sensorboard/cmake/Platform/Arduino.cmake">
+			<Option virtualFolder="CMake Files\cmake\Platform\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

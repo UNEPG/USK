@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.h
+inttypes.h
+-
+Stream.h
+-
+
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/sensorboard_sensorboard.ino.cpp
+Arduino.h
+-
+Arduino.h
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/Arduino.h
+stdio.h
+-
+stdio.h
+-
+stdarg.h
+-
+SoftwareSerial.h
+-
+

@@ -1,0 +1,55 @@
+"/Users/azat/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/202.6948.80/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/azat/Projects/unisat/sensorboard
+-- Generating sensorboard
+-- Generating uno_SoftwareSerial for library SoftwareSerial
+-- Using /Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-objcopy for converting firmware image to hex
+Missing uno.bootloader.path, not creating bootloader burn target sensorboard-burn-bootloader.
+-- AVR Boards:
+--                   menu: 
+--                    yun: Arduino Y
+--                    uno: Arduino Uno
+--              diecimila: Arduino Duemilanove or Diecimila
+--                   nano: Arduino Nano
+--                   mega: Arduino Mega or Mega 2560
+--                megaADK: Arduino Mega ADK
+--               leonardo: Arduino Leonardo
+--            leonardoeth: Arduino Leonardo ETH
+--                  micro: Arduino Micro
+--                esplora: Arduino Esplora
+--                   mini: Arduino Mini
+--               ethernet: Arduino Ethernet
+--                    fio: Arduino Fio
+--                     bt: Arduino BT
+--             LilyPadUSB: LilyPad Arduino USB
+--                lilypad: LilyPad Arduino
+--                    pro: Arduino Pro or Pro Mini
+--               atmegang: Arduino NG or older
+--           robotControl: Arduino Robot Control
+--             robotMotor: Arduino Robot Motor
+--                  gemma: Arduino Gemma
+--     circuitplay32u4cat: Adafruit Circuit Playground
+--                yunmini: Arduino Y
+--                chiwawa: Arduino Industrial 101
+--                    one: Linino One
+--                unowifi: Arduino Uno WiFi
+-- 
+-- 
+-- AVR Programmers:
+--                     avrisp: AVR ISP
+--                 avrispmkii: AVRISP mkII
+--                 usbtinyisp: USBtinyISP
+--                 arduinoisp: ArduinoISP
+--              arduinoisporg: ArduinoISP.org
+--                     usbasp: USBasp
+--                   parallel: Parallel Programmer
+--               arduinoasisp: Arduino as ISP
+--     arduinoasispatmega32u4: Arduino as ISP (ATmega32U4)
+--                   usbGemma: Arduino Gemma
+--                  buspirate: BusPirate as ISP
+--                     stk500: Atmel STK500 development board
+--                   jtag3isp: Atmel JTAGICE3 (ISP mode)
+--                      jtag3: Atmel JTAGICE3 (JTAG mode)
+--                  atmel_ice: Atmel-ICE (AVR)
+-- 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/azat/Projects/unisat/sensorboard/cmake-build-debug

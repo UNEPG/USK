@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+c36ba071c10873c673614cff5ed7801c CMakeFiles/sensorboard-burn
+0750f4715d4a9f9f491ce1dbdb6764f4 CMakeFiles/sensorboard-size
+c12b2bf0001b64c56b321240a504aa26 CMakeFiles/sensorboard-upload
+962a7cb05b7a2653303863152cdf611a sensorboard_sensorboard.ino.cpp

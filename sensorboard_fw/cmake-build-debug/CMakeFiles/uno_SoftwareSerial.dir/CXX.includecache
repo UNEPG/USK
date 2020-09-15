@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp
+avr/interrupt.h
+-
+avr/pgmspace.h
+-
+Arduino.h
+-
+SoftwareSerial.h
+-
+util/delay_basic.h
+-
+
+/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.h
+inttypes.h
+-
+Stream.h
+-
+

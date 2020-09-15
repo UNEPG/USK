@@ -1,0 +1,9 @@
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/sensorboard-burn.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/sensorboard-upload.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/sensorboard-size.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/sensorboard.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/uno_SoftwareSerial.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/upload.dir
+/Users/azat/Projects/unisat/sensorboard/cmake-build-debug/CMakeFiles/uno_CORE.dir

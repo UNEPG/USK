@@ -1,0 +1,2 @@
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-ar qc libuno_SoftwareSerial.a  CMakeFiles/uno_SoftwareSerial.dir/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SoftwareSerial/src/SoftwareSerial.cpp.obj
+/Applications/Arduino.app/Contents/Java/hardware/tools/avr/bin/avr-ranlib libuno_SoftwareSerial.a
