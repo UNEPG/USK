@@ -298,7 +298,7 @@ Distributed under the MIT License. See ``LICENSE`` for more information.
 Contact
 -------
 
-Yaakov Azat - a@azat.ai
+Azat - a@azat.ai
 
 Project Link: https://github.com/unisatkz/USK
 
