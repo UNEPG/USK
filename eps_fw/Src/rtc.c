@@ -31,7 +31,7 @@ void MX_RTC_Init(void)
 {
   RTC_TamperTypeDef sTamper = {0};
 
-  /** Initialize RTC Only 
+  /** Initialize RTC Only
   */
   hrtc.Instance = RTC;
   hrtc.Init.HourFormat = RTC_HOURFORMAT_24;
@@ -45,7 +45,7 @@ void MX_RTC_Init(void)
   {
     Error_Handler();
   }
-  /** Enable the RTC Tamper 1 
+  /** Enable the RTC Tamper 1
   */
   sTamper.Tamper = RTC_TAMPER_1;
   sTamper.Trigger = RTC_TAMPERTRIGGER_RISINGEDGE;
@@ -93,7 +93,7 @@ void HAL_RTC_MspDeInit(RTC_HandleTypeDef* rtcHandle)
 
   /* USER CODE END RTC_MspDeInit 1 */
   }
-} 
+}
 
 /* USER CODE BEGIN 1 */
 

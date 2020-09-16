@@ -25,7 +25,7 @@
 #include "cmsis_os.h"
 
 /* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */     
+/* USER CODE BEGIN Includes */
 #include "adc.h"
 #include "tim.h"
 #include "string.h"
@@ -124,6 +124,7 @@
 //******************* define PID control end ***************************//
 extern I2C_HandleTypeDef hi2c3;
 extern TIM_HandleTypeDef htim3;
+extern TIM_HandleTypeDef htim6;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -667,6 +668,7 @@ void start_pross (void)
     //CHARGE_Mode and will Wait give SYS_OK_FLAG
     }
     
+    HAL_TIM_Base_Start(&htim6);
     
     
 
