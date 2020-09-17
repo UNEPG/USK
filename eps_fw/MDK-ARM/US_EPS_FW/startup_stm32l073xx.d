@@ -1,0 +1,1 @@
+alfasat_eps_fw\startup_stm32l073xx.o: startup_stm32l073xx.s

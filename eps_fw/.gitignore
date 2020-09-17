@@ -1,0 +1,6 @@
+*MDK-ARM/ALFASAT_EPS_FW
+ALFASAT_EPS_FW.uvguix.User
+*.uvguix.*
+*User
+*.lst
+*/RTE/
