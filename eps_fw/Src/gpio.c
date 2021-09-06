@@ -30,9 +30,9 @@
 
 /* USER CODE END 1 */
 
-/** Configure pins as 
-        * Analog 
-        * Input 
+/** Configure pins as
+        * Analog
+        * Input
         * Output
         * EVENT_OUT
         * EXTI
@@ -51,14 +51,14 @@ void MX_GPIO_Init(void)
   __HAL_RCC_GPIOD_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOE, EN_CH3_Pin|RST_CH3_Pin|EN_CH4_Pin|RST_CH4_Pin 
+  HAL_GPIO_WritePin(GPIOE, EN_CH3_Pin|RST_CH3_Pin|EN_CH4_Pin|RST_CH4_Pin
                           |EN_CH5_Pin|EN_3V3BC_Pin|EN_5VBC_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, RST_CH5_Pin|EN_7_4VCH_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOD, CB_EN_Pin|BUSY_GPIO_Pin|EN_CH1_Pin|RST_CH1_Pin 
+  HAL_GPIO_WritePin(GPIOD, CB_EN_Pin|BUSY_GPIO_Pin|EN_CH1_Pin|RST_CH1_Pin
                           |EN_CH2_Pin|RST_CH2_Pin, GPIO_PIN_RESET);
 
   /*Configure GPIO pin Output Level */
@@ -67,18 +67,18 @@ void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(INT_GPIO_GPIO_Port, INT_GPIO_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : PEPin PEPin PEPin PEPin 
+  /*Configure GPIO pins : PEPin PEPin PEPin PEPin
                            PEPin PEPin PEPin */
-  GPIO_InitStruct.Pin = EN_CH3_Pin|RST_CH3_Pin|EN_CH4_Pin|RST_CH4_Pin 
+  GPIO_InitStruct.Pin = EN_CH3_Pin|RST_CH3_Pin|EN_CH4_Pin|RST_CH4_Pin
                           |EN_CH5_Pin|EN_3V3BC_Pin|EN_5VBC_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOE, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PEPin PEPin PEPin PEPin 
+  /*Configure GPIO pins : PEPin PEPin PEPin PEPin
                            PEPin */
-  GPIO_InitStruct.Pin = FAULT_CH4_Pin|FAULT_CH5_Pin|FAULT_3V3BC_Pin|FAULT_5VBC_Pin 
+  GPIO_InitStruct.Pin = FAULT_CH4_Pin|FAULT_CH5_Pin|FAULT_3V3BC_Pin|FAULT_5VBC_Pin
                           |FAULT_CH3_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
@@ -97,9 +97,9 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(FAULT_7_4VCH_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PDPin PDPin PDPin PDPin 
+  /*Configure GPIO pins : PDPin PDPin PDPin PDPin
                            PDPin PDPin */
-  GPIO_InitStruct.Pin = CB_EN_Pin|BUSY_GPIO_Pin|EN_CH1_Pin|RST_CH1_Pin 
+  GPIO_InitStruct.Pin = CB_EN_Pin|BUSY_GPIO_Pin|EN_CH1_Pin|RST_CH1_Pin
                           |EN_CH2_Pin|RST_CH2_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
